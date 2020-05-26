@@ -3,19 +3,14 @@ package algor.queue7;
 public class CycleQueue {
 
     private String[] data;
-
     private int n = 0;
-
     private int head;
-
     private int tail;
-
 
     public CycleQueue(int capacity){
         data = new String[capacity];
         n = capacity;
     }
-
 
     //入队
     public boolean enQueue(String val){
